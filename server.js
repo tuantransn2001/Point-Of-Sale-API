@@ -1,5 +1,5 @@
 require("dotenv").config();
-// ? Fix bug delete staff 28/03/2023 - 2
+// ? Fix bug create staff 29/03/2023
 const path = require("path");
 const { sequelize } = require("./models");
 const { rootRouter } = require("./routers");

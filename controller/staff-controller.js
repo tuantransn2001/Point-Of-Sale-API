@@ -58,6 +58,8 @@ class StaffController {
         user_code,
         staff_password,
         staff_status,
+        staff_region,
+        staff_commune,
         staff_address,
         note_about_staff,
         isAllowViewImportNWholesalePrice,
@@ -80,6 +82,8 @@ class StaffController {
       const newStaffRecord = {
         staff_status,
         staff_birthday: new Date(),
+        staff_region,
+        staff_commune,
         staff_address,
         note_about_staff,
         isAllowViewImportNWholesalePrice,
